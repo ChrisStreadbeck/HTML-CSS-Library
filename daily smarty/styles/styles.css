@@ -1,0 +1,150 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+  }
+  p,
+  li {
+    font-family: 'PT Serif', serif;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.content-wrapper {
+    width: 660px;
+}
+
+.style-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    grid-gap: 20px;
+}
+
+.style-details-text {
+    color: #808080;
+    font-weight: normal;
+    text-align: right;
+}
+
+.stle-details-text h3 {
+    font-family: "LatoBold";
+    color: #4A4A4A;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 1px;
+}
+
+.style-details-logo img {
+    width: 100%;
+}
+
+.do-donts-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    grid-gap: 30px;
+}
+
+.do-donts-list {
+    box-sizing: inherit;
+}
+
+.do-donts-list ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px
+}
+
+.do-donts-list li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    
+}
+
+.color-blue h3 {
+    color: #0079ff;
+}
+
+.color-red {
+    color: #dc0004;
+}
+
+.do-donts-header {
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.do-donts-images {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.do-donts-images div {
+    font-size: 14px;
+    color: #999999;
+}
+
+.alternate-options-wrapper {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.alternate-options-wrapper h3 {
+    color: #999999;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.alternate-options-wrapper li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+
+.alternate-options-images {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-gap: 100px 40px;
+}
+
+.image-logos {
+    width: 60%;
+}
+
+.text-logos {
+    width: 90%;
+}
+
+.asset-usage-wrapper h3 {
+    color: #4A4A4A;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.asset-usage-wrapper a {
+    color: #4fb8e8;
+    font-size: 19px
+}
+
+.asset-usage-wrapper p {
+    margin-bottom: 42px;
+}

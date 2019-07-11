@@ -1,0 +1,15 @@
+
+@media (max-width: 48em) {
+    .style-details, .do-donts-wrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+    }
+
+    .style-details-text {
+        text-align: center;
+    }
+
+    .do-donts-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

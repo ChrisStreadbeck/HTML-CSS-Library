@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Flex Basis</title>
+  <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        margin: 0;
+        height: calc(100vh - 20px);
+        width: calc(100vw - 20px);
+        border: 10px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blocks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1000px;
+    }
+    
+    .block {
+        background-color:cadetblue;
+        height: 200px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Flex basis dictates the % of the parent element each item takes up */
+    /* Flex Grow dictates the rate that an element will grow in relation to the available space, so 'grow: 4' means 4x a 'grow: 1' */
+    /* Flex Shrink means that the selected element will shrink #x faster than the other elements with shrink; has to have a basis. So 'shrink: 4' will shrink 4x faster than 'shrink: 1'*/
+
+    .block1 {
+        /* flex-basis: 400px; */
+        /* flex-grow: 4; */
+        /* flex-shrink: 2; */
+    }
+    
+    .block2 {
+        /* flex-basis: 100px; */
+        /* flex-grow: 1; */
+        /* flex-shrink: 1; */
+    }
+    
+    .block3 {
+        /* flex-basis: 200px; */
+        /* flex-grow: 2; */
+        /* flex-shrink: 1; */
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="blocks">
+      <div class="block block1">1</div>
+      <div class="block block2">2</div>
+      <div class="block block3">3</div>
+    </div>
+  </div>
+</body>
+</html>

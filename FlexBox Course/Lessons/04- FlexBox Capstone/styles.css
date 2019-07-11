@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+}
+
+.navbar-wrapper {
+  background-color: #115533;
+  display: inline-block;     
+}
+
+
+.left-column {
+  width: 5rem;
+  display: block;
+}
+
+.right-column {
+}
+
+.my-brand-nav {
+  text-align: center;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  text-decoration: none;
+  color: burlywood;
+  background: #886644;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  background: greenyellow;
+  transition: .3s;
+}
+
+

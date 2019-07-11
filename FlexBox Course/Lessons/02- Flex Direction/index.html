@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex Direction</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0;
+    height: calc(100vh - 20px);
+    width: calc(100vw - 20px);
+    border: 10px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container > .img-blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Flex Direction default = row */
+
+</style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="img-blocks">
+            <img src="https://source.unsplash.com/random/250x250" alt="">
+            <img src="https://source.unsplash.com/random/250x250" alt="">
+            <img src="https://source.unsplash.com/random/250x250" alt="">
+        </div>
+    </div>
+
+</body>
+</html>

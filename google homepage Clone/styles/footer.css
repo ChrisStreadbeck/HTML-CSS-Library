@@ -1,0 +1,17 @@
+.footer-wrapper {
+    background: lightgray;
+    margin: -4px;
+    height: 40px;
+}
+
+.footer-wrapper > .right-column {
+    display: flex;
+    justify-content: right;
+    align-items: center;    
+}
+
+.footer-wrapper > .left-column {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
